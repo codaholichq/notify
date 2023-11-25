@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: notify
+  config:
+    import: optional:configserver:http://localhost:8080
