@@ -15,11 +15,11 @@ import org.springframework.kafka.support.serializer.JsonDeserializer;
 import java.util.Map;
 
 @Configuration
-public class KafkaConsumerConfig {
+public class KafkaConfig {
 
     private final KafkaProperty property;
 
-    public KafkaConsumerConfig(KafkaProperty property) {
+    public KafkaConfig(KafkaProperty property) {
         this.property = property;
     }
 
